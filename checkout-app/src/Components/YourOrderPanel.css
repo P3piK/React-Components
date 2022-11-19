@@ -1,0 +1,84 @@
+.orderPanel {
+    background-color: #fff;
+    width:  300px;
+    border: 2px solid #f3f3f3;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 30px;
+}
+
+h4, h5 {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0 5px;
+}
+
+.orderedItemList {
+    margin-bottom: 20px;
+}
+
+.orderedItemWrapper {
+    position: relative;
+}
+
+.orderedItemContainer {
+    display: block;
+    list-style: none;
+    padding: 0;
+    height: 330px;    
+    scroll-padding-top: 20px;
+    scroll-padding-bottom: 20px;
+}
+
+.orderedItem {
+    border: 2px solid #F3F3F3;
+    border-radius: 5px;
+    height: 125px;
+    margin-bottom: 10px;
+    padding: 10px 0 0 20px;
+}
+
+.checkoutButton {
+    height: 50px;
+    width: inherit;
+    margin-top: 20px;
+}
+
+.quantityContainer {
+    display: flex;
+}
+
+.quantity {
+    margin: auto 10px auto 10px;
+}
+
+.quantityButton {
+    background: #f3f3f3;
+    border: none;
+    border-radius: 10em;
+    width: 2em;
+    height: 2em;
+}
+
+.quantityButton:enabled {
+    cursor: pointer;
+}
+
+.quantityButton:hover:enabled {
+    background: #9F9DB4;
+}
+
+.removeItemButton:enabled {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    border: none;
+    background: white;
+    cursor: pointer;
+}
+
+.removeItemButton:hover {
+    background: #F3F3F3;
+    border-radius: 5px;
+}

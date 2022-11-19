@@ -1,0 +1,49 @@
+.new-goal {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 30rem;
+    max-width: 95%;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.25);
+}
+
+.new-goal__controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.new-goal__actions {
+    text-align: right;
+    padding-top: 2rem;
+}
+
+.new-goal__actions button {
+    font: inherit;
+    background-color: rgba(204, 0, 0, 0.119);
+    border: 1px solid rgba(111, 0, 0, 0.622);
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.new-goal__actions button:hover {
+    background-color: rgba(199, 63, 63, 0.477);
+    transition: 0.25s ease-out;
+}
+
+.new-goal__controls input {
+    background-color: transparent;
+}
+
+.invalid input {
+    background-color: rgba(255, 31, 31, 0.266);
+}
+
+.invalid label {
+    color: red;
+}

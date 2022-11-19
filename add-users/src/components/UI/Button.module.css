@@ -1,0 +1,18 @@
+.button {
+    text-align: left;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: rgba(137, 43, 226, 0.477);
+    color: white;
+    font-weight: bold;
+    border: 2px solid rgba(98, 47, 146, 0.451);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+}
+
+button:hover {
+    background-color: rgba(137, 43, 226, 0.341);
+}

@@ -1,0 +1,50 @@
+.popularPanel {
+    width: 430px;
+    height: 180px;
+    background: #fff;
+    border: 2px solid #f3f3f3;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+    padding: 20px 50px 25px 50px;
+}
+
+.popularItemListWrapper {
+    position: relative;
+    margin-top: 20px;
+}
+
+.popularItemListContainer {
+    scroll-padding-left: 40px;
+    scroll-padding-right: 40px;
+}
+
+.popularItem {
+    float: left;
+    width: 140px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #f3f3f3;
+    border-radius: 5px;
+}
+
+.itemName {
+    margin-top: 0;
+    height: 18px;
+}
+
+.addButton {
+    height: 30px;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.react-horizontal-scrolling-menu--scroll-container::-webkit-scrollbar {
+    display: none;
+}
+
+.react-horizontal-scrolling-menu--scroll-container {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
