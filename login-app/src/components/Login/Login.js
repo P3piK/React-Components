@@ -35,7 +35,7 @@ function Login(props) {
     return () => {
       clearTimeout(identifier);
     };
-  }, [usernameState.value, password]);
+  }, [usernameState.isValid, password]);
 
   const changeUsernameHandler = (event) => {
     dispatchUsername({ type: "INPUT_USERNAME", val: event.target.value });
