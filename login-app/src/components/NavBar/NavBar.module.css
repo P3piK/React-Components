@@ -1,0 +1,15 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(177, 28, 177, 0.57);
+    color: white;
+    border-radius: 2px;
+    padding: 0 0.5rem;
+}
+
+h2 {
+    margin: 1rem 1rem;
+}

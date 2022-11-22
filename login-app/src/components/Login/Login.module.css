@@ -1,0 +1,30 @@
+.login {
+  margin: 1rem auto;
+  padding: 2rem;
+  width: 30rem;
+  max-width: 95%;
+}
+
+.action button {
+  border: none;
+  border-radius: 6px;
+  background-color: rgba(228, 170, 228, 0.799);
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.action button:hover,
+.action button:active {
+    background-color: rgba(190, 118, 190, 0.718);
+    transition: 0.2s ease-out;
+}
+
+.action button:disabled,
+.action button:focus:disabled,
+.action button:hover:disabled,
+.action button:active:disabled {
+    background-color: lightgrey;
+    cursor: not-allowed;
+}
