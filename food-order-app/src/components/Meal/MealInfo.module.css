@@ -1,0 +1,10 @@
+.info {
+    position: relative;
+    color: white;
+    background-color: rgb(77, 77, 77);
+    width: 35rem;
+    text-align: center;
+    margin: auto;
+    margin-top: -10rem;
+    padding: 0.1rem;
+}

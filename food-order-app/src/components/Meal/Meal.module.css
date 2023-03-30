@@ -1,0 +1,6 @@
+.meal {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(65, 60, 60, 0.974);
+    z-index: 10;
+}

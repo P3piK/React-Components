@@ -1,0 +1,23 @@
+.cart {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 15rem 1rem 0;
+    padding: 0 2rem;
+    height: 3rem;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: brown;
+    cursor: pointer;
+}
+
+.cart:hover {
+    background-color: rgba(165, 42, 42, 0.77);
+}
+
+.counter {
+    background-color: orange;
+    border-radius: 20px;
+    padding: 0.2rem 1rem;
+}

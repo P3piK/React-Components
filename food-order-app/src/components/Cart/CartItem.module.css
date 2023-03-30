@@ -1,0 +1,51 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid brown;
+    margin-bottom: 1rem;
+}
+
+.control h3 {
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.control p {
+    margin: 0.5rem 1rem 0.5rem 0;
+}
+
+.control__numbers {
+    display: flex;
+}
+
+.amount {
+    padding: 0.1rem 0.5rem;
+    border-radius: 12px;
+    border: 1px solid lightgray;
+    align-items: center;
+}
+
+.price {
+    color: red;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.action button {
+    border-radius: 8px;
+    border: 1px solid rgba(217, 143, 143, 0.766);
+    color:rgba(217, 143, 143, 0.766);
+    font-weight: bold;
+    padding: 0.2rem 1rem;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.action button:hover {
+    background-color: rgba(217, 143, 143, 0.097);
+}

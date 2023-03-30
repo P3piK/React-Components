@@ -1,0 +1,37 @@
+.control {
+  font-size: 0.8rem;
+}
+
+.control label {
+  font-weight: bold;
+}
+
+.control input {
+  margin-left: 0.5rem;
+  width: 2rem;
+}
+
+.action {
+  text-align: right;
+}
+
+.action button {
+  background-color: brown;
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  border: 1px solid darkred;
+  text-align: center;
+  padding: 0.3em 1.5rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.action button:hover {
+    background-color: rgba(165, 42, 42, 0.758);
+}
+
+.invalid {
+  background-color: rgba(255, 0, 0, 0.23);
+  color: red;
+}
